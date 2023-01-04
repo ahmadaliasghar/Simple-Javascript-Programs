@@ -33,3 +33,5 @@ const scoreDolphins1 = calcAverage(85, 54, 41);
 const scoreKoalas1 = calcAverage(23, 34, 27);
 
 checkWinner(scoreDolphins1, scoreKoalas1);
+
+//End
