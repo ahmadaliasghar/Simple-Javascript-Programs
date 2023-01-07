@@ -38,55 +38,73 @@
 
 // Write a js program to find maximum and minimum between four numbers(2 can be optional) using functions.
 
-let num1, num2, num3, num4;
+// let num1, num2, num3, num4;
 
-const minMAx = function(num1, num2, num3, num4)
+// const minMAx = function(num1, num2, num3, num4)
+// {
+//     let max = 0;
+//     let min = 99999;
+//     //To Find Maximum
+//     if(num1 > max)
+//     {
+//         max = num1;
+//     }
+//     if(num2 > max)
+//     {
+//         max = num2;
+//     }
+//     if(num3 > max)
+//     {
+//         max = num3;
+//     }
+//     if(num4 > max)
+//     {
+//         max = num4;
+//     }
+//     //To Find Minimum
+//     if(num1 < min)
+//     {
+//         min = num1;
+//     }
+//     if(num2 < min)
+//     {
+//         min = num2;
+//     }
+//     if(num3 < min)
+//     {
+//         min = num3;
+//     }
+//     if(num4 < min)
+//     {
+//         min = num4;
+//     }
+//     console.log(`The Maximum Number is: ${max}`);
+//     console.log(`The Minimun Number is: ${min}`);
+// }
+
+// //calling the function
+// minMAx(10, 20, 30, 40);
+
+// Write a ts program to check whether a number is even or odd using functions.
+
+let num
+const evenOdd = function(num)
 {
-    let max = 0;
-    let min = 99999;
-    //To Find Maximum
-    if(num1 > max)
+    if(num % 2 == 0)
     {
-        max = num1;
+        console.log(`The number is even: ${num}`);
     }
-    if(num2 > max)
+    else
     {
-        max = num2;
+        console.log(`The number is odd: ${num}`);
     }
-    if(num3 > max)
-    {
-        max = num3;
-    }
-    if(num4 > max)
-    {
-        max = num4;
-    }
-    //To Find Minimum
-    if(num1 < min)
-    {
-        min = num1;
-    }
-    if(num2 < min)
-    {
-        min = num2;
-    }
-    if(num3 < min)
-    {
-        min = num3;
-    }
-    if(num4 < min)
-    {
-        min = num4;
-    }
-    console.log(`The Maximum Number is: ${max}`);
-    console.log(`The Minimun Number is: ${min}`);
 }
 
-//calling the function
-minMAx(10, 20, 30, 40);
-
+//calling function
+evenOdd(10);
+evenOdd(11);
 
 //JavaScript Arrays
 
-const friends = ['Ahmad', 'Ali', 'Asghar'];
-console.log(friends);
+// const friends = ['Ahmad', 'Ali', 'Asghar'];
+// console.log(friends);
