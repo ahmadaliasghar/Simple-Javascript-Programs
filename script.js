@@ -109,23 +109,56 @@
 // const friends = ['Ahmad', 'Ali', 'Asghar'];
 // console.log(friends);
 
+// var studentMarks = [150,100,200,400]
+// console.log("studentMarks",studentMarks);
+// studentMarks.push(130);
+// console.log("studentMarks after push",studentMarks);
+// studentMarks.pop()
+// studentMarks.pop()
+// console.log("studentMarks after pop",studentMarks)
+// studentMarks.unshift(148)
+// console.log("studentMarks after unshift",studentMarks)
+// // studentMarks.shift()
+// console.log("studentMarks after shift",studentMarks)
+// studentMarks.splice(2,1,350)
+// // studentMarks.splice(0,1)
+// // studentMarks.splice(0,0, 350)
+// // studentMarks.splice(4,0, 450)
+// // studentMarks.splice(3,1)
+// console.log("studentMarks after splice",studentMarks);
+
 
 // write a ts function named sayGratitude that take input of student list, and say welcome to university e.g
 // Hi, Naveed Welcome to university 
 
-const sayGratitude = function()
-{
-    const Students = new Array(5);
+// const sayGratitude = function()
+// {
+//     const Students = new Array(5);
     
-    for(let i = 0; i < Students.length; i++)
-    {
-        Students[i] = prompt(`Enter Name of Student ${i + 1}`);
-    }
+//     for(let i = 0; i < Students.length; i++)
+//     {
+//         Students[i] = prompt(`Enter Name of Student ${i + 1}`);
+//     }
 
-    for(let j = 0; j < Students.length; j++)
-    {
-        console.log(`Hi, ${Students[j]} Welcome To University`);
-    }
-}
+//     for(let j = 0; j < Students.length; j++)
+//     {
+//         console.log(`Hi, ${Students[j]} Welcome To University`);
+//     }
+// }
 
-sayGratitude();
+// sayGratitude();
+
+//Arrays Concatination
+// var userNumbers = [10,20,30,40,50];
+// var userNumbers2 = [60,70,80,90,100];
+
+// var concatArr = userNumbers.concat(userNumbers2);
+// console.log("concatArr", concatArr);
+
+// function simpleMethod(element, index) {
+//     console.log("simpleMethod logs", element,index);
+//     return element + 1
+// }
+
+// simpleMethod(10, 20);
+
