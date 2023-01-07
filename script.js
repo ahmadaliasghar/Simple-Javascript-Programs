@@ -87,24 +87,45 @@
 
 // Write a ts program to check whether a number is even or odd using functions.
 
-let num
-const evenOdd = function(num)
-{
-    if(num % 2 == 0)
-    {
-        console.log(`The number is even: ${num}`);
-    }
-    else
-    {
-        console.log(`The number is odd: ${num}`);
-    }
-}
+// let num
+// const evenOdd = function(num)
+// {
+//     if(num % 2 == 0)
+//     {
+//         console.log(`The number is even: ${num}`);
+//     }
+//     else
+//     {
+//         console.log(`The number is odd: ${num}`);
+//     }
+// }
 
-//calling function
-evenOdd(10);
-evenOdd(11);
+// //calling function
+// evenOdd(10);
+// evenOdd(11);
 
 //JavaScript Arrays
 
 // const friends = ['Ahmad', 'Ali', 'Asghar'];
 // console.log(friends);
+
+
+// write a ts function named sayGratitude that take input of student list, and say welcome to university e.g
+// Hi, Naveed Welcome to university 
+
+const sayGratitude = function()
+{
+    const Students = new Array(5);
+    
+    for(let i = 0; i < Students.length; i++)
+    {
+        Students[i] = prompt(`Enter Name of Student ${i + 1}`);
+    }
+
+    for(let j = 0; j < Students.length; j++)
+    {
+        console.log(`Hi, ${Students[j]} Welcome To University`);
+    }
+}
+
+sayGratitude();
